@@ -48,7 +48,9 @@
     print_r($dog);
     
     $potato->set_price(250);
+    echo '<br>';
     $potato->show_price();
+    echo '<br>';
 
     $dog->set_height(60);
     $dog->show_height();
